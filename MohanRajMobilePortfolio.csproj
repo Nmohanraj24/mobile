@@ -258,6 +258,7 @@
     <Content Include="Content\images\icons-svg\user-white.svg" />
     <Content Include="Content\images\icons-svg\video-black.svg" />
     <Content Include="Content\images\icons-svg\video-white.svg" />
+    <Content Include="css\mobilecolor.min.css" />
     <Content Include="icon\home.png" />
     <Content Include="icon\ist2_14098498-contact-us-icon.png" />
     <Content Include="icon\MobileMe.png" />

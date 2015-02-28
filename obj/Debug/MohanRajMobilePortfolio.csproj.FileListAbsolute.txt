@@ -1,0 +1,6 @@
+C:\Users\User\Source\Repos\MohanRajMobilePortfolio\MohanRajMobilePortfolio\MohanRajMobilePortfolio\bin\MohanRajMobilePortfolio.dll.config
+C:\Users\User\Source\Repos\MohanRajMobilePortfolio\MohanRajMobilePortfolio\MohanRajMobilePortfolio\bin\MohanRajMobilePortfolio.dll
+C:\Users\User\Source\Repos\MohanRajMobilePortfolio\MohanRajMobilePortfolio\MohanRajMobilePortfolio\bin\MohanRajMobilePortfolio.pdb
+C:\Users\User\Source\Repos\MohanRajMobilePortfolio\MohanRajMobilePortfolio\MohanRajMobilePortfolio\obj\Debug\MohanRajMobilePortfolio.csprojResolveAssemblyReference.cache
+C:\Users\User\Source\Repos\MohanRajMobilePortfolio\MohanRajMobilePortfolio\MohanRajMobilePortfolio\obj\Debug\MohanRajMobilePortfolio.dll
+C:\Users\User\Source\Repos\MohanRajMobilePortfolio\MohanRajMobilePortfolio\MohanRajMobilePortfolio\obj\Debug\MohanRajMobilePortfolio.pdb
