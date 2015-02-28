@@ -1,0 +1,38 @@
+﻿.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+.nav-glyphish-example .ui-btn { padding-top: 40px !important; }
+.nav-glyphish-example .ui-btn:after { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+#home:after { background:url("../icon/home.png") 50% 50% no-repeat; background-size: 24px 22px; }
+#contact:after { background:url("../icon/ist2_14098498-contact-us-icon.png") 50% 50% no-repeat; background-size: 24px 22px; }
+#abt:after { background:url("../icon/MobileMe.png") 50% 50% no-repeat; background-size: 24px 22px; }

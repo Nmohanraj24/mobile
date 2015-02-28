@@ -1,0 +1,499 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>MohanRaj Nandagopal Mobile Portfolio</title>
+    <!-- CSS SECTION -->
+    <link href="Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="css/mobile.css" rel="stylesheet" />
+</head>
+<body onload="init();">
+
+    <div data-role="page" data-control-title="Home" id="home">
+        <div data-theme="a" data-role="header">
+            <h3>
+                Home
+            </h3>
+        </div>
+        <div data-role="content">
+            <a href="#home" data-controltype="image">
+                <center>
+                    <div style="  height:120px; width:140px; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                        <img src="images/mohanlogo.png" />      </div></center>
+                
+</a>
+            <div data-role="navbar" data-iconpos="top">
+                <ul>
+                    <li>
+                        <a href="#home" data-transition="slidedown" data-theme="" class="ui-btn-active" data-icon="home" >
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#aboutme" data-transition="slidedown" data-theme="" data-icon="star">
+                            About me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                            Contact me
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         data-controltype="image">
+                        <a href="#projects"><img class="projserv" height=20%; width=100% src="images/projects-banner.jpg" alt="image" style="resize:both;"></a>
+                    </div>
+                </div>
+
+               
+                <div class="ui-block-b">
+                    <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         data-controltype="image">
+                       <a href="#services"> <img class="projserv" height=20% width=100% src="images/services-banner.jpg" alt="image"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <div style=" height: 30%; width:80%;">
+                <ul class=" rslides">
+                    <li><img src="images/cms.png" /></li>
+                    <li><img src="images/hack.png" /></li>
+                    <li><img src="images/stmic.png" /></li>
+                </ul>
+            </div>
+        </center>
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <h3>
+                CopyRight 2015 MohanRaj
+            </h3>
+        </div>
+    </div>
+    <div data-role="page" data-control-title="About me" id="aboutme">
+        <div data-theme="a" data-role="header">
+            <a data-role="button" href="#home" class="ui-btn-right">
+                Back
+            </a>
+            <h3>
+                About Me
+            </h3>
+        </div>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slidedown" data-theme=""  data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="slidedown" data-theme="" class="ui-btn-active" data-icon="star">
+                        About me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                        Contact me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#projects"><img class="projserv" height=20%; width=100% src="images/projects-banner.jpg" alt="image" style="resize:both;"></a>
+                </div>
+            </div>
+
+
+            <div class="ui-block-b">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#services"> <img class="projserv" height=20% width=100% src="images/services-banner.jpg" alt="image"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div data-role="content">
+            <center>
+                <div style=" position: relative; background-color: #fbfbfb;"
+                     data-controltype="image">
+
+                    <img width="15%" height=35%" src="images/mohan.png" alt="image" style="position: inherit; ">
+             
+                </div>
+            </center>
+            <div>
+                <div data-controltype="textblock">
+                    <h1 style="text-align: center;">
+                        <strong>
+
+                            <span style="font-size: medium;" data-mce-style="font-size: medium;">
+                                Mohan Raj Nandagopal
+                            </span>
+                        </strong>
+                    </h1>
+                    <h1>
+                        <span style="font-size: small;">
+                        </span>
+                        <span style="font-size: small;">
+                            
+                        </span>
+                    </h1>
+                </div>
+                <a data-role="button" href="assets/mohanraj_nandagopal_resume.docx">
+                    Download Resume
+                </a>
+                <hr style="height:3px; background-color:#ccc; border:0; margin-top:12px; margin-bottom:12px;">
+            </div>
+            <div data-controltype="textblock">
+                <p>
+                    <b>
+                        Skills
+                    </b>
+                </p>
+            </div>
+            <div data-role="fieldcontain" data-controltype="slider">
+                <label for="slider1">
+                    Java
+                </label>
+                <input id="slider1" type="range" name="slider" value="80" min="0" max="100"
+                       data-highlight="true" data-theme="b" data-track-theme="d">
+                <br/>
+                <label for="slider2">
+                    Html & Css
+                </label>
+                <input id="slider2" type="range" name="slider" value="90" min="0" max="100"
+                       data-highlight="true" data-theme="b" data-track-theme="d">
+                <br/>
+                <label for="slider3">
+                    Android
+                </label>
+                <input id="slider3" type="range" name="slider" value="68" min="0" max="100"
+                       data-highlight="true" data-theme="b" data-track-theme="d"><br/>
+
+                <label for="slider4">
+                    C#
+                </label>
+                <input id="slider4" type="range" name="slider" value="70" min="0" max="100"
+                       data-highlight="true" data-theme="b" data-track-theme="d">
+                <br/>
+                <label for="slider5">
+                    JQuery
+                </label>
+                <input id="slider5" type="range" name="slider" value="70" min="0" max="100"
+                       data-highlight="true" data-theme="b" data-track-theme="d">
+                <br/>
+
+
+            </div>
+
+        </div>
+               
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <h3>
+                CopyRight MohanRaj 2015
+            </h3>
+        </div>
+    </div>
+    <!--Projects page-->
+    <div data-role="page" data-control-title="Projects" id="projects">
+        <div data-theme="a" data-role="header">
+            <a data-role="button" href="#home" class="ui-btn-right">
+                Back
+            </a>
+            <h3>
+                Projects
+            </h3>
+        </div>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slidedown" data-theme="" class="ui-btn-active" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="slidedown" data-theme="" data-icon="star">
+                        About me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                        Contact me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#projects"><img class="projserv" height=20%; width=100% src="images/projects-banner.jpg" alt="image" style="resize:both;"></a>
+                </div>
+            </div>
+
+
+            <div class="ui-block-b">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#services"> <img class="projserv" height=20% width=100% src="images/services-banner.jpg" alt="image"></a>
+                </div>
+            </div>
+        </div>
+   
+        
+                <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                    <h4>Hack & Slash</h4>
+                    <div>
+                        <img width="60%" height="50%" src="images/hack.png" /></div>
+                    <div>
+                     <p>Hack & Slash <br>
+                        Client : Centennial College<br>
+                        Date : Sep 2014<br>
+                        Skills : JavaScript, Unity<br>
+                        Hack & slash is a 3D prototype where the player tries to defend his castle from the enemy troops and also tries to kill all the enemies to conquer the enemies castle.There are three levels and the gameplay difficulty increases as the level increases.
+             </p></div>
+                    </div>
+                    <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                        <h4>Server Inventory</h4>
+                        <div>
+                            <img width="60%" height="50%"  src="images/stmic.png" />
+                        </div>
+                        <div>
+                          
+                            <p>
+                                Server Inventory<br>
+                                Client : St.Micahel's Hospital<br>
+                                Date : May 2014<br>
+                                Skills : HTML5, CSS3, JavaScript, CakePHP<br>
+                                A Web Application that allows the user to main and update the list of all the servers that has been used within the organization.
+                            </p>
+                        </div>
+                        </div>
+                        <div data-role="collapsible" data-theme="b" data-content-theme="b">
+                            <h4>Gear Junkie</h4>
+                            <div>
+                                <img width="60%" height="50%"  src="images/cms.png" />
+                            </div>
+                            <div>
+                                <p>
+                                    Gear Junkie <br>
+                                    Client : Centennial College<br>
+                                    Date :Jan 2014<br>
+                                    Skills : HTML, CSS, JavaScript, SQL Server<br>
+                                    Online winter clothing shopping website that allows the user to purchase winter clothing using interactive features to select them.
+                                </p>
+                            </div>
+                            </div>
+                            <div data-theme="a" data-role="footer" data-position="fixed">
+                                <h3>
+                                    CopyRight MohanRaj 2015
+                                </h3>
+                            </div>
+                        </div>
+    <!--Project Page ends-->
+    <!--Services page-->
+    <div data-role="page" data-control-title="Services" id="services">
+        <div data-theme="a" data-role="header">
+            <a data-role="button" href="#home" class="ui-btn-right">
+                Back
+            </a>
+            <h3>
+                Services
+            </h3>
+        </div>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slidedown" data-theme="" class="ui-btn-active" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="slidedown" data-theme="" data-icon="star">
+                        About me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                        Contact me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#projects"><img class="projserv" height=20%; width=100% src="images/projects-banner.jpg" alt="image" style="resize:both;"></a>
+                </div>
+            </div>
+
+
+            <div class="ui-block-b">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#services"> <img class="projserv" height=20% width=100% src="images/services-banner.jpg" alt="image"></a>
+                </div>
+            </div>
+        </div>
+   S
+        <div data-role="content">
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <img width="60%" height="50%" src="images/android1.png" />
+                </div>
+                <div class="ui-block-b">
+                    <h2>
+                        Android Development
+                    </h2><br />
+                        I can create a application on android that can be user friendly, simple and also compatible with most of the versions of android.
+</div>
+                <div class="ui-block-a"></div><div class="ui-block-b"><br /></div>
+    <div class="ui-block-a">
+        <img width="60%" height="50%" src="images/web.png" />
+    </div>
+    <div class="ui-block-b">
+        <h2> Web Design</h2><br />
+        I can help you to build your interactive website with latest new features.
+
+    </div>
+                <div class="ui-block-a"></div><div class="ui-block-b"> <br/></div>
+    <div class="ui-block-a">
+        <img width="60%" height="50%" src="images/sf2.png" />
+    </div>
+    <div class="ui-block-b">
+        <h2>
+            Application Development
+        </h2><br />
+        I can develop a Web based or Software Applications following the organizational best practices.
+    </div>
+</div>
+            
+        </div>
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <h3>
+                CopyRight MohanRaj 2015
+            </h3>
+        </div>
+    </div>
+    <!--Services Page ends-->
+    <div data-role="page" data-control-title="contact me" id="contactme">
+        <div data-theme="a" data-role="header">
+            <a data-role="button" href="#home" class="ui-btn-right">
+                Back
+            </a>
+            <h3>
+                ContactMe
+            </h3>
+        </div>
+        <div data-role="navbar" data-iconpos="top">
+            <ul>
+                <li>
+                    <a href="#home" data-transition="slidedown" data-theme="" class="ui-btn-active" data-icon="home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#aboutme" data-transition="slidedown" data-theme="" data-icon="star">
+                        About me
+                    </a>
+                </li>
+                <li>
+                    <a href="#contactme" data-transition="slidedown" data-theme="" data-icon="info">
+                        Contact me
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#projects"><img class="projserv" height=20%; width=100% src="images/projects-banner.jpg" alt="image" style="resize:both;"></a>
+                </div>
+            </div>
+
+
+            <div class="ui-block-b">
+                <div style="  position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                     data-controltype="image">
+                    <a href="#services"> <img class="projserv" height=20% width=100% src="images/services-banner.jpg" alt="image"></a>
+                </div>
+            </div>
+        </div>
+  
+        <div data-role="content">
+            <div id="googlemapsjs3" class="google-map" style="width: 288px; height: 200px; margin-left: auto; margin-right: auto">
+            </div>
+            <form action="">
+                <div data-role="fieldcontain" data-controltype="textinput">
+                    <label for="textinput3">
+                        Name
+                    </label>
+                    <input name="" id="textinput3" placeholder="Please Enter your Name" value=""
+                           type="text">
+                </div>
+                <div data-role="fieldcontain" data-controltype="textinput">
+                    <label for="textinput4">
+                        Email Address
+                    </label>
+                    <input name="" id="textinput4" placeholder="Please Enter your Email address"
+                           value="" type="email">
+                </div>
+                <div data-role="fieldcontain" data-controltype="textarea">
+                    <label for="textarea1">
+                        Message
+                    </label>
+                    <textarea name="" id="textarea1" placeholder="Please Enter your Message"></textarea>
+                </div>
+                <input id="contactsub" type="submit" value="Submit">
+            </form>
+        </div>
+        <div data-theme="a" data-role="footer" data-position="fixed">
+            <h3>
+                CopyRights MohanRaj 2015
+            </h3>
+        </div>
+    </div>
+    <!-- JavaScript Section -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="Scripts/responsiveslides.min.js"></script>
+
+    <script src="Scripts/jquery-1.8.0.min.js"></script>
+    <script src="Scripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="Scripts/mobile.js"></script>
+
+    <script src="Scripts/responsiveslides.js"></script>
+    <script>
+    /*$(function () {
+        $(".rslides").responsiveSlides();
+    });*/
+    $(".rslides").responsiveSlides({
+        auto: true,             // Boolean: Animate automatically, true or false
+        speed: 500,            // Integer: Speed of the transition, in milliseconds
+        timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+       // pager: true,           // Boolean: Show pager, true or false
+        nav: true,             // Boolean: Show navigation, true or false
+        random: false,          // Boolean: Randomize the order of the slides, true or false
+        pause: false,           // Boolean: Pause on hover, true or false
+        pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+       // prevText: "Previous",   // String: Text for the "previous" button
+        //nextText: "Next",       // String: Text for the "next" button
+        maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+        navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+        manualControls: "",     // Selector: Declare custom pager navigation
+        namespace: "rslides",   // String: Change the default namespace used
+        before: function () { },   // Function: Before callback
+        after: function () { }     // Function: After callback
+    });
+    </script>
+</body>
+</html>
+
